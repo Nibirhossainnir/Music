@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" media="" href="style.css">
+    <link rel="stylesheet" href="stylemobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-resume</title>
+</head>
+<body> 
+    <input id="progress" type="range">
+    <audio id="audio" src="bgmusic.mp3"></audio>
+    <button onclick="prev()" id="btn1">Previous</button>
+    <button onclick="audio.play()">Play</button>
+    <button onclick="audio.pause()">Pause</button>
+    <button onclick="audio.currentTime = 0;audio.pause()">Stop</button>
+    <button onclick="next()" id="btn2">Next</button>
+<script src="script.js"></script>
+</body>
+</html>
